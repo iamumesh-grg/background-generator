@@ -31,3 +31,27 @@ h3 {
 .greeting{
     font-size: 2em;
 }
+
+@media screen and (max-width: 768px){
+    h1 {
+        margin-top: 75px;
+        font: 2em 'Raleway', sans-serif;
+        color: rgba(0,0,0,.5);
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: .2em;
+        width: 100%;
+    }
+
+    h3 {
+        font: 1em 'Raleway', sans-serif;
+        color: rgba(0,0,0,.5);
+        text-align: center;
+        text-transform: none;
+
+    }
+
+    .greeting{
+        font-size: 1.5em;
+    }
+}

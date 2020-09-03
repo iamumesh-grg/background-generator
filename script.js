@@ -18,6 +18,10 @@ const getTime = () => {
     timeOfDay = 'Afternoon';
     greet.style.color = 'blue';
   }
+  else if(hours > 17 && hours < 20){
+    timeOfDay = 'Evening';
+    greet.style.color = 'yellow'
+  }
   else{
     timeOfDay = 'Night';
     greet.style.color = 'green';
